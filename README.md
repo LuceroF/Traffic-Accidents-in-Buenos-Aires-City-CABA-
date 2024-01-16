@@ -2,7 +2,7 @@
 
 ## 🌐 Introduction
 
-**Welcome to the Road Traffic Accident Data Analysis Project in Buenos Aires**. This project aims to address one of the most critical concerns of road safety in the City of Buenos Aires. I am Lucero, the leader of this project, committed to using data analysis to improve road safety and reduce traffic incidents in our city.
+**Welcome to the Road Traffic Accident Data Analysis Project in Buenos Aires**. This project aims to address one of the most critical concerns of road safety in the City of Buenos Aires. I am Lucero, the leader of this project, committed to using data analysis to improve road safety and reduce traffic incidents in Buenos Aires city.
 
 ## 🚦 Problem Description
 
