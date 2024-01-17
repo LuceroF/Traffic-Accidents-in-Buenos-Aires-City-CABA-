@@ -1,3 +1,4 @@
+![](https://github.com/LuceroF/Traffic-Accidents-in-Buenos-Aires-City-CABA-/blob/main/data/COVER.png)
 # Individual Project No. 2: Road Traffic Accidents
 
 ## 🌐 Introduction
@@ -12,6 +13,11 @@ Road traffic accidents, commonly known as traffic accidents, represent a signifi
 
 In an urban setting like Buenos Aires, with its high population density and volume of traffic, road accidents take on a critical dimension. The City, with a population of over 3 million, faces unique challenges in terms of road safety and traffic management.
 
+- Buenos Aires has one of the highest rates of traffic fatalities in Latin America, with an average of 6.5 deaths per 100,000 inhabitants.
+- The main causes of road accidents in Buenos Aires are speeding, alcohol consumption, and lack of seatbelt and helmet use.
+- The city has implemented various measures to improve road safety and traffic management, such as reducing speed limits, installing traffic cameras, creating pedestrian zones, and promoting public transportation and cycling.
+- The city is also part of the Bloomberg Philanthropies Initiative for Global Road Safety, which provides technical assistance and funding to improve road safety policies and practices.
+
 ## 📊 Data and Role to Be Developed
 
 The Mobility and Road Safety Observatory (OMSV) has entrusted me to lead a comprehensive analysis of road traffic accident data, using a detailed dataset of homicides in road incidents in CABA during 2016-2021. This analysis seeks not only to identify patterns and trends but also to provide solid foundations for effective prevention policies.
@@ -20,10 +26,39 @@ The Mobility and Road Safety Observatory (OMSV) has entrusted me to lead a compr
 
 The project will include:
 
-- **ETL** (Extract, Transform and Load): Data processing to ensure a clean and complete database.
-- **EDA** (Exploratory Data Analysis): Detailed analysis to characterize the victims and discover patterns.
-- **Interactive Dashboard**: A tool to explore and interpret the data, supporting decision-making.
-- **KPI Definition**: Focused on reducing mortality rates and accidents.
+- ### ETL (Extract, Transform and Load)
+Data processing to ensure a clean and complete database. This involves cleaning the data by eliminating null values and duplicates, performing necessary transformations such as changing data types, removing columns, and joining tables into a single file. We then export the data for further work in EDA and store the database in MySQL. This process is implemented using Python with libraries like pandas, matplotlib, numpy, and statsmodels.
+- [View ETL Notebook](https://github.com/LuceroF/Traffic-Accidents-in-Buenos-Aires-City-CABA-/blob/main/ETL.ipynb)
+
+
+### EDA (Exploratory Data Analysis)
+
+- ### EDA (Exploratory Data Analysis)
+Detailed analysis to characterize the victims and discover patterns. 
+- [View EDA Notebook](https://github.com/LuceroF/Traffic-Accidents-in-Buenos-Aires-City-CABA-/blob/main/EDA.ipynb)
+
+- ### Interactive Dashboard
+A tool to explore and interpret the data, supporting decision-making. Includes KPIs, Location-Based Analysis, and Temporal-Demographic Analysis.
+- [View Dashboard](https://github.com/LuceroF/Traffic-Accidents-in-Buenos-Aires-City-CABA-/blob/main/CABA%20Homicides%20Analysis.pbix)
+
+- ### KPI Definition
+Focused on reducing mortality rates and accidents in Buenos Aires. Key Performance Indicators include:
+- Reducing the Fatality Rate in Traffic Accidents by 10% over the Past Six Months in Buenos Aires City (CABA) Compared to the Previous Semester's Fatality Rate.
+  Below, I am sharing the detail of this KPI:
+  ![](https://github.com/LuceroF/Traffic-Accidents-in-Buenos-Aires-City-CABA-/blob/main/data/KPI%201.png)
+- Achieving a 7% Reduction in Fatal Motorcycle Accidents over the Past Year in Buenos Aires City (CABA) Compared to the Previous Year.
+  ![](https://github.com/LuceroF/Traffic-Accidents-in-Buenos-Aires-City-CABA-/blob/main/data/KPI%202.png)
+
+Our analysis of traffic accident data reveals progress and challenges in reducing fatal motorcycle accidents in CABA. Starting from 64 accidents in 2016, we achieved a significant decrease in 2017 with 53 accidents, exceeding our 7% reduction target with a 17.19% decrease. Although there was a slight increase in 2018, the numbers again improved in 2019 and 2020, with the latter year showing a remarkable 46% reduction. However, 2021 saw a reversal, with an increase to 46 accidents. This fluctuation highlights the need for continuous efforts in traffic safety measures. Overall, while we have seen years of significant progress, the varying numbers remind us of the importance of consistent and adaptive safety strategies.
+
+- Reducing the Avenue Traffic Accident in CABA by 10% over the Past Year Compared to the Previous Year.
+![](https://github.com/LuceroF/Traffic-Accidents-in-Buenos-Aires-City-CABA-/blob/main/data/KPI%203.png)
+
+- Check the complete dashboard here: [View Dashboard](https://github.com/LuceroF/Traffic-Accidents-in-Buenos-Aires-City-CABA-/blob/main/CABA%20Homicides%20Analysis.pbix)
+
+- ### Database in MySQL
+We created a database to handle large volumes of data more efficiently in the future.
+- [View MySQL Database](https://github.com/LuceroF/Traffic-Accidents-in-Buenos-Aires-City-CABA-/blob/main/mySQL/homicides.ibd)
 
 ## 📚 Data Source
 
